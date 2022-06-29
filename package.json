@@ -1,0 +1,25 @@
+{
+  "name": "kafka-workflows",
+  "version": "1.0.0",
+  "description": "在workflows里搭建kafka环境",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhaozheng/kafka-workflows.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenzhaozheng/kafka-workflows/issues"
+  },
+  "homepage": "https://github.com/chenzhaozheng/kafka-workflows#readme",
+  "dependencies": {
+    "kafkajs": "^2.1.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
