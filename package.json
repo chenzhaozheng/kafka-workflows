@@ -4,7 +4,7 @@
   "description": "在workflows里搭建kafka环境",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
