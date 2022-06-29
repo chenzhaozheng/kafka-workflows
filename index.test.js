@@ -5,7 +5,7 @@ describe('/test/index.test.ts', () => {
         // 连接
     const kafka = new Kafka({
         clientId: 'my-app',
-        brokers: ['localhost:9093'],
+        brokers: ['localhost:9092'],
     });
     const producer = kafka.producer();
     await producer.connect();
